@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    position: relative;
+    font-family: 'Mulish', sans-serif;;
+}
+nav{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+}
+.logo a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 15px;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.active, ul li:hover{
+    border-top: 3px solid #5dade2;
+    border-bottom: 3px solid #5dade2;
+    transition: all 0.5s;
+}
+.btn{
+    background-color: #d465ef;
+    padding: 12px 26px;
+    font-style: ;
+    font-weight: 500;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+.btn:hover{
+    background: linear-gradient(to bottom, #615cfd 0%, #d465ef 100%);
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+}
+.center h1{
+    color: #fff;
+    font-size: 70px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.center h2{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 400;
+}
+.center h2::before{
+    content: '';
+    width: 80px;
+    height: auto;
+    border: 2px solid #fff;
+    position: absolute;
+    left: 40px;
+    bottom: 0;
+    margin-bottom: 10px;
+}
+body::before{
+    content: '';
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 100px;
+    bottom: 90px;
+    background-image: url(images/round-avatar-with-young-man-free-vector.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+.custom-shape-divider-bottom-1619910283 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1619910283 svg {
+    position: relative;
+    display: block;
+    width: calc(127% + 1.3px);
+    height: 175px;
+}
+
+.custom-shape-divider-bottom-1619910283 .shape-fill {
+    fill: #FFFFFF;
+}
